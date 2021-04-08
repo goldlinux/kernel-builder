@@ -109,7 +109,7 @@ $(DEST)/drivers/.Makefile_patched:
 	touch $@
 
 src/dahdi-linux:
-	cd src && git clone -b sgm ssh://git@git.9r.com.au/opensrc/dahdi-linux.git
+	cd src && git clone -b sgm https://github.com/goldlinux/dahdi-linux.git
 
 src/dahdi-linux/include/dahdi/version.h:
 	cd src/dahdi-linux && make include/dahdi/version.h
